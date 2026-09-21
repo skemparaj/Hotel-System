@@ -28,4 +28,4 @@ npm start
 1. Start PostgreSQL
 2. Run Backend: `node index.js` → Port 5000
 3. Run Frontend: `npm start` → Port 3000
-4. Open: `http://localhost:3000`
+4. Open: `http://localhost:3000`n
