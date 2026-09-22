@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api/hotels';
+const API = process.env.REACT_APP_API_URL || 'http://localhost:5000/api/hotels';
 
 export const fetchHotels = createAsyncThunk('hotels/fetchAll', async (params) => {
   const res = await axios.get(API, { params });

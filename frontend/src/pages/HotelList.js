@@ -42,7 +42,7 @@ function HotelList() {
       </Helmet>
 
       <div className="navbar">
-        <h1>🏨 Luxe<span>Stay</span></h1>
+        <h1>Luxe<span>Stay</span></h1>
         <button onClick={() => navigate('/add')}>+ Add Hotel</button>
       </div>
 
